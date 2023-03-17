@@ -1,8 +1,12 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
 header{
     position: fixed;
     top: 0;
     display:flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
@@ -12,11 +16,23 @@ header{
     background-color: rgb(0, 0, 0);
     border-bottom: 5px solid black;
     z-index: 1;
+    gap: 10px;
+}
+
+div{
+    display:flex;
+    align-items: center;
+    gap: 10px;
 }
 
 #headshot{
     border-radius: 50%;
     height: 180px;
+    border: 1px solid whitesmoke ;
+}
+
+h1{
+    font-family: 'Philosopher', sans-serif;
 }
 
 nav{
@@ -25,7 +41,7 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    justify-self: flex-end;
+    color: whitesmoke;
 }
 
 h1{
@@ -44,6 +60,7 @@ h1{
     height: calc(100vh - 200px);
     overflow-y: scroll;
     scroll-behavior: smooth;
+    padding-top: 30px;
 }
 
 .section{
