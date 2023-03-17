@@ -4,7 +4,7 @@ const views = {
             <h2>About</h2>
             <p>Kyle is a Dad of three kids. He is interested in how computers and technology will shape their daily lives. <br><br>
             Technology's potential exponentially grows and he would like to help them and his communities make responsible decisions about how to use it. <br><br>
-            Why use technology to be social 
+            Since computers ability to access language is 
             <p>
         </section>
         `,
