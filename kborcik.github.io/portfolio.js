@@ -11,16 +11,20 @@ const views = {
     "skills": `
         <section id="skills" class="section">
             <h2>Skills</h2>
+            <p>Kyle has implented webs apps using the following tools & skills:<p>
+            <ul></ul>
         </section>
     `,
     "projects": `
         <section id="projects" class="section">
             <h2>Projects</h2>
+            <Hey Dad: An Ai tool used to be a mentor 
         </section>
     `,
     "contact": `
         <section id="contact" class="section">
             <h2>Contact</h2>
+            <p>Kyle can be reached via email at kyleborcikdreams@gmail.com<p>
         </section>
     `
 }
